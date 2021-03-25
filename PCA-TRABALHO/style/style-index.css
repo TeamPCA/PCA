@@ -1,0 +1,340 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+}
+/*RESET*/
+
+/*ESTILOS GERAIS*/
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 0.1em;
+}
+p {
+  color: #fff;
+  font-size: 1.125em;
+}
+h2,
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  background: url(/img/fundo-body.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.container-geral {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.btn {
+  color: #fff;
+  border: solid 1.5px #fff;
+  padding: 10px 20px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.btn:hover {
+  animation: color 0.5s forwards;
+}
+
+/*ESTILOS GERAIS*/
+
+/*MENU*/
+
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0 0;
+  animation: show 1s forwards;
+}
+.container-menu img {
+  width: 206px;
+  height: 123px;
+}
+.container-menu nav ul {
+  display: flex;
+}
+.container-menu nav ul li a {
+  color: #fff;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  font-family: "Dancing Script", cursive;
+}
+
+.btn-nav:hover {
+  border-bottom: solid 1.5px #fff;
+  padding-bottom: 2px;
+}
+
+.menu-lista-cadastro {
+  display: flex;
+  align-items: center;
+}
+
+.menu-lista-cadastro a {
+  color: #fff;
+
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-family: "Dancing Script", cursive;
+}
+
+.menu-lista-cadastro a:first-child:hover {
+  border-bottom: solid 1.5px #fff;
+  padding-bottom: 2px;
+}
+
+.menu-lista-cadastro a:nth-last-child(odd) {
+  background-color: #546886;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.menu-lista-cadastro a:nth-last-child(odd):hover {
+  animation: btnCadastro 0.3s forwards;
+}
+
+/*MENU*/
+
+/*HEADER*/
+
+.first-section {
+  background: url(/img/fundo-body.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 250px;
+
+  text-align: center;
+  animation: show 1s forwards;
+}
+
+.container-header h1 {
+  font-size: 3em;
+}
+
+.container-header h1::after {
+  content: "";
+  height: 3px;
+  width: 50px;
+  display: block;
+  background: #fff;
+  margin: 20px auto 25px auto;
+}
+
+.container-header p {
+  font-size: 1.5em;
+}
+
+/*HEADER*/
+
+/*CHEFS*/
+
+.chef {
+  border-top: solid 4px #ddddda;
+  background-color: #edece4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.container-chef h2 {
+  color: #000;
+  font-size: 2.25em;
+}
+
+.container-chef h2::after {
+  content: "";
+  height: 3px;
+  width: 50px;
+  display: block;
+  background: #000;
+  margin: 6px auto 50px auto;
+}
+
+.container-chef ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-chef ul li {
+  background-color: #000;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  max-width: 296.66px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px #999;
+}
+.container-chef ul li img {
+  border-radius: 10px;
+}
+.container-chef ul li h3 {
+  color: #fff;
+}
+
+.container-chef h3::after {
+  content: "";
+  height: 2px;
+  width: 30px;
+  display: block;
+  background: #fff;
+  margin: 6px auto 15px auto;
+}
+
+.sobre-chef {
+  padding: 10px 10px 20px 10px;
+}
+
+.calltoaction {
+  margin: 0 auto;
+}
+
+.calltoaction p {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5em;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.calltoaction a {
+  color: #000;
+  border-color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*CHEFS*/
+
+/* ANIMÃÇÃO DE LOGIN */
+
+.login {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.js-show div {
+  display: none;
+}
+
+.js-show div.ativo {
+  display: block;
+  pointer-events: auto;
+  animation: showLogin 0.5s forwards;
+}
+
+.login > div {
+  max-width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #edece4;
+  border-radius: 10px;
+  text-align: center;
+  border: solid 5px #ddddda;
+}
+.login img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.login label,
+input,
+button {
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+.login label {
+  font-size: 0.75em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.login input {
+  border: solid 2px #000;
+  border-radius: 6px;
+  padding: 5px;
+}
+.login button {
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid 2px #000;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+.login button:hover {
+  animation: button-login 0.5s forwards;
+}
+.login input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.fechar {
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
+}
+.fechar:hover {
+  animation: btnCadastro 0.5s forwards;
+}
+
+/* ANIMÃÇÃO DE LOGIN */
