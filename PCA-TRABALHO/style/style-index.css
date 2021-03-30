@@ -16,6 +16,7 @@ h3 {
   color: #fff;
   font-family: "Dancing Script", cursive;
   letter-spacing: 0.1em;
+  text-align: center;
 }
 p {
   color: #fff;
@@ -70,8 +71,8 @@ body {
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 400px;
-  height: 200px;
+  width: 206px;
+  height: 123px;
 }
 .container-menu nav ul {
   display: flex;
@@ -285,23 +286,23 @@ body {
   margin: 0 auto;
 }
 
-.login label,
-input,
-button {
-  max-width: 100%;
-  display: block;
-  margin: 10px auto;
-}
 .login label {
   font-size: 0.75em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   text-transform: uppercase;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
 }
+
 .login input {
   border: solid 2px #000;
   border-radius: 6px;
   padding: 5px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
 }
 .login button {
   margin-top: 20px;
@@ -311,6 +312,9 @@ button {
   border: solid 2px #000;
   border-radius: 10px;
   padding: 8px 20px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
 }
 .login button:hover {
   animation: button-login 0.5s forwards;
@@ -442,3 +446,113 @@ button:focus {
 }
 
 /*EVENTOS*/
+
+/* CONTATO */
+
+.contato {
+  background: #fff;
+  padding: 50px 0;
+}
+
+.contato h2 {
+  font-size: 2.25em;
+  color: #000;
+}
+
+.contato h2::after {
+  content: "";
+  height: 3px;
+  width: 40px;
+  display: block;
+  background: #000;
+  margin: 6px auto 60px auto;
+}
+
+.container-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Nunito", sans-serif;
+}
+
+.container-contato label {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.container-contato input {
+  background: #edece4;
+  width: 100%;
+  display: block;
+  margin: 5px 0 10px 0;
+  padding: 15px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 0 1px 5px #000;
+}
+
+.container-contato textarea {
+  background: #edece4;
+  display: block;
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  margin: 5px 0 10px 0;
+  font-size: 20px;
+  box-shadow: 0 1px 5px #000;
+}
+
+.container-contato p {
+  color: #000;
+}
+
+.mensagem {
+  border-right: solid 2px #eff4f9;
+  padding-right: 50px;
+}
+
+.info-sobre {
+  background: url(/icones/icones-contato.svg) no-repeat right;
+  padding-left: 50px;
+}
+
+.info-sobre h4 {
+  font-size: 1.125em;
+}
+
+.info-sobre h4:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.info-sobre h4:nth-child(3),
+.info-sobre h4:nth-child(5) {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.mensagem button {
+  border-color: #000;
+  background: transparent;
+  color: #000;
+  border: solid 2px #000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.125em;
+}
+
+.mensagem button:hover {
+  animation: btnCadastro 0.5s forwards;
+}
+
+.mensagem input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* CONTATO */
