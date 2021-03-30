@@ -42,8 +42,8 @@
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   background: #000;
 }
 .container-menu nav ul {
