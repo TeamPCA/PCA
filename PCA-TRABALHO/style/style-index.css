@@ -70,8 +70,8 @@ body {
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 206px;
-  height: 123px;
+  width: 400px;
+  height: 200px;
 }
 .container-menu nav ul {
   display: flex;
