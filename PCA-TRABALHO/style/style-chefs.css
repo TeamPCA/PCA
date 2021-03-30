@@ -42,8 +42,8 @@
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   background: #000;
 }
 .container-menu nav ul {
@@ -119,7 +119,7 @@
   margin-top: 30px;
   width: 102px;
   height: 36px;
-  background: #1d57ad;
+  background: #333;
   border: 1px solid #e1e1e1;
   box-sizing: border-box;
   border-radius: 25px;
@@ -130,7 +130,7 @@
 .telastyle:hover {
   font-size: 19px;
   color: #ffffff;
-  background: #0d2851;
+  background: #111;
   border: 1px solid #e1e1e1;
   box-sizing: border-box;
   border-radius: 25px;
@@ -154,6 +154,7 @@
   position: absolute;
   border: 2px solid #959595;
   background: #f8f8f8;
+  position: fixed;
   border-radius: 15px;
   box-sizing: border-box;
 }
@@ -196,3 +197,104 @@
   box-sizing: border-box;
   border-radius: 25px;
 }
+
+/* ANIMÃÇÃO DE LOGIN */
+
+.login {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.js-show div {
+  display: none;
+}
+
+.js-show div.ativo {
+  display: block;
+  pointer-events: auto;
+  animation: showLogin 0.5s forwards;
+}
+
+.login > div {
+  max-width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #edece4;
+  border-radius: 10px;
+  text-align: center;
+  border: solid 5px #ddddda;
+}
+.login img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.login label {
+  font-size: 0.75em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+
+.login input {
+  border: solid 2px #000;
+  border-radius: 6px;
+  padding: 5px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+.login button {
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid 2px #000;
+  border-radius: 10px;
+  padding: 8px 20px;
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+.login button:hover {
+  animation: button-login 0.5s forwards;
+}
+.login input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.fechar {
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
+}
+.fechar:hover {
+  animation: btnCadastro 0.5s forwards;
+}
+
+/* ANIMÃÇÃO DE LOGIN */

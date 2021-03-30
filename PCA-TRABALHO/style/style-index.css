@@ -71,8 +71,8 @@ body {
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 206px;
-  height: 123px;
+  width: 300px;
+  height: 150px;
 }
 .container-menu nav ul {
   display: flex;
@@ -198,11 +198,12 @@ body {
   margin-right: 27px;
   margin-left: 27px;
   margin-bottom: 20px;
-  max-width: 300px;
+  max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 7px #000;
 }
 .container-chef ul li img {
+  height: 70%;
   border-radius: 10px;
 }
 .container-chef ul li h3 {
@@ -553,6 +554,15 @@ button:focus,
 textarea:focus {
   outline: none;
   box-shadow: none;
+}
+
+.rede-social {
+  display: flex;
+}
+
+.rede-social a img {
+  width: 35px;
+  margin-right: 5px;
 }
 
 /* CONTATO */

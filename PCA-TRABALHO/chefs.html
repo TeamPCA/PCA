@@ -10,7 +10,7 @@
 
     <main class="menu">
         <div class="container-menu container-geral">
-            <a href="/eventos.html"><img src="/icones/Logo_Branco.png" alt="logo"></a>
+            <a href="/index.html"><img src="/icones/Logo_Branco.png" alt="logo"></a>
             <nav class="menu-nav">
                 <ul>
                     <li><a href="#" class="btn-nav">Sobre</a></li>
@@ -20,11 +20,28 @@
                 </ul>
             </nav>
             <div class="menu-lista-cadastro">
-                <button onclick="document.getElementById('id01').style.display='block'" style="width: auto;">Login</button>
+                <a href="#abrirLogin" class="login-btn">Login</a>
                 <a href="#">Cadastrar</a>
             </div>
         </div>
     </main>
+
+
+    <!-- LOGIN -->
+    <div class="js-show">
+        <div id="abrirLogin" class="login">
+            <div class="container-login">
+                <a href="#fechar" title="Fechar" class="fechar">x</a>
+                <img src="/icones/Logo_Preto.png" alt="logo">
+                <label for="User">E-mail: </label>
+                <input type="email">
+                <label for="User">Senha: </label>
+                <input type="password">
+                <button>Entrar</button>
+            </div>
+        </div>
+    </div>
+    <!-- LOGIN -->
 
     <div class="sobreconteiner" id="sobre">
         <p>Certificados:</p>
@@ -201,6 +218,7 @@
             }
         }
     </script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
