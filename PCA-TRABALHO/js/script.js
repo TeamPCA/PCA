@@ -31,7 +31,6 @@ function scroll() {
         if(visibleSection) {
             section.classList.add('ativo')
         }
-        console.log(sectionTop)
     })
 }
 scroll()
