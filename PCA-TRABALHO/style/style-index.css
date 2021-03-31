@@ -130,7 +130,7 @@ body {
 /*HEADER*/
 
 .first-section {
-  background: url(/img/fundo-body.jpg) no-repeat center;
+  background: url(/img/fundo-header.svg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -139,8 +139,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 250px;
+  padding-top: 150px;
+  padding-bottom: 300px;
 
   text-align: center;
   animation: show 1s forwards;
