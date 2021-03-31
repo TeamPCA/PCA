@@ -19,4 +19,30 @@ eventosTrabalho();
 
 
 
+// ANIMAÇÃO SCROLL
+
+function animacaoScroll(){
+const sections = document.querySelectorAll(".js-scroll");
+const metadeTela = window.innerHeight * 0.6;
+function scroll() {
+    sections.forEach((section) => {
+        const sectionTop = section.getBoundingClientRect().top
+        const visibleSection = (sectionTop - metadeTela) < 0
+        if(visibleSection) {
+            section.classList.add('ativo')
+        }
+        console.log(sectionTop)
+    })
+}
+scroll()
+sections.forEach((item) => {
+    window.addEventListener('scroll', scroll)
+})
+}
+animacaoScroll()
+
+// ANIMAÇÃO SCROLL
+
+
+
 
