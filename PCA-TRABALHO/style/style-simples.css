@@ -19,7 +19,6 @@ h3 {
   text-align: center;
 }
 p {
-  color: #fff;
   font-size: 1.125em;
   font-family: "Nunito", sans-serif;
 }
@@ -264,85 +263,51 @@ img {
 
   /* Barra de cima*/
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-hr {
-    border: 0;
-    border-top: 1px solid #ddd;
-}
-
 #corpo {
-    margin: 50px 150px;
+    margin: 50px 450px;
 }
 
-#formulario {
-    text-align: left;
-    margin: 0 0px;
-}
-
-#formulario .direita {
+#formulario input{
+    display: block;
     float: right;
-    width:50%;
-
-}
-
-#formulario .esquerda {
-    float: left;
-    width:50%;
-
-}
-
-#formulario label {
-    line-height: 30px;
-    text-align:left;
-    color:#363636;
-}
-
-#formulario input {
     padding: 9px;
     border: 1px solid #CCCCCC;
-    background: #E8EFE4;
+    border-radius: 5px;
+}
+
+
+#formulario select{
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background:;
     border-radius: 4px;
     color:#363636;
 }
 
-#formulario select {
-    padding: 9px;
-    border: 1px solid #CCCCCC;
-    background: #E8EFE4;
-    border-radius: 4px;
-    color:#363636;
+
+
+
+#formulario .sub-conteiner{
+
 }
 
-#formulario .botao {
-    cursor: pointer;
-    text-align: left;
-    margin: 0 0 0 0;
-    color: #FFF;
-    background-color: #45543D;
+
+
+
+
+#formulario .botao-estilo{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 102px;
+    height: 36px;
+    background: #333;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 19px;
+    color: #ffffff;
 }
 
-#formulario .botao:hover {
-    background-color: #354030;
-}
 
-#copy {
-    color: #363636;
-    text-align: center;
-    margin: 50px 150px;
-}
+
+

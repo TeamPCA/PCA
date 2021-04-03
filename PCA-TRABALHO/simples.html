@@ -64,22 +64,57 @@
                 <div id="formulario">
                   <form action="insere.php" method="POST"> <!--Ação para o PHP (se preciso)-->
 
-                      <!--Nome-->
+
+                      <!--Tipos de festas-->
                     <div class="esquerda" id="">
+                    <label for="Festa">Festa:</label>
+                    <select name="Festa" id="">
+                      <option value="Selecione" selected disabled>Selecione</option>
+                      <option value="Aniversario">Aniversário</option>
+                      <option value="naosei">nao sei</option>
+                      <option value="naosei">nao sei</option>
+                      <option value="naosei">nao sei</option>
+                    </div>
+                      <!--Tipos de festas/-->
+
+                      <!--Nome-->
+                    <div class="direita" id="">
                       <label for="Nome">Seu nome:</label>
                       <input type="text" size="35" placeholder="nome completo" required>
                     </div>
                       <!--Nome/-->
 
-                      <!--Tipos de festas-->
-                    <div class="esquerda" id="">
-                      <label for="Festa">Festa:</label><br>
-                      <select name="escolaridade" id="">
-                      <option value="Selecione" selected disabled>Selecione</option>
-                      <option value="Aniversario">Aniversário</option>
-                      <option value="naosei">nao sei</option>
+
+
+
+
+
+                      <div class="sub-conteiner" id="sub">
+                        <p>Escolha as comidas:</p>
+                        <div class="comida" id="sub-conteiner">
+                          <button class="button-for-select">Comida1</button>
+                          <button class="button-for-select">Comida1</button>
+                          <button class="button-for-select">Comida1</button>
+                          <button class="button-for-select">Comida1</button>
+                          <button class="button-for-select">Comida1</button>
+                          <button class="button-for-select">Comida1</button>
+
+                          </div>
+                            
+                        <div class="botao">
+                           
+                        </div>
                     </div>
-                        <!--Tipos de festas/-->
+                      
+                    <div class="abrir-conteiner">
+                      <p>Refeição:</p>
+
+                      
+
+
+                    </div>
+
+
              
 
 
@@ -99,10 +134,11 @@
 
 
 
-
-
-
-
       
 </body>
+
+
+
+
+
 </html>
