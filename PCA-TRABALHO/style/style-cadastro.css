@@ -7,6 +7,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 
 /* ESTILOS GERAIS */
@@ -66,12 +67,20 @@ img {
 
 .social-media a img:first-child {
   max-width: 23px;
-  justify-content: flex-start;
+  align-items: center;
 }
+
+.social-media a {
+  width: 100%;
+}
+
+.social-media a:hover {
+  animation: button-cadastro 0.2s forwards;
+}
+
 .social-media a:first-child {
-  max-width: 341px;
   display: flex;
-  padding: 10px 68px 10px 10px;
+  padding: 10px 10px 10px 10px;
   align-items: center;
   background: #18a0fb;
   border-radius: 5px;
@@ -80,7 +89,7 @@ img {
   margin-right: 13px;
 }
 .social-media a p {
-  margin: 0 0 0 33px;
+  margin: 0 auto 0 auto;
 }
 
 .social-media a:nth-child(2) {
@@ -121,6 +130,93 @@ img {
   background: #f2f2f2;
   width: 100%;
   height: 2px;
+}
+
+.form-cadastro input {
+  background: #f5f6f8;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.form-cadatro label {
+  margin-bottom: 7px;
+}
+
+.nomes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 453px;
+  margin-bottom: 30px;
+}
+
+.nomes input {
+  width: 100%;
+}
+
+.nome-1 {
+  margin-right: 15px;
+}
+.nome-2 {
+  margin-left: 15px;
+}
+
+.password2 {
+  width: 100%;
+}
+
+.input-email {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  display: block;
+  margin-right: 0.4rem;
+}
+
+.checkbox label {
+  font-size: 0.875em;
+}
+
+.checkbox a {
+  color: #18a0fb;
+}
+
+button {
+  color: #fff;
+  background: #cb2027;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+button:hover {
+  animation: button-cadastro 0.2s forwards;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 43px;
+}
+
+.login p {
+  margin-right: 12px;
+}
+
+.login a {
+  color: #18a0fb;
+}
+
+.login a:hover {
+  color: #000;
 }
 
 /* DIV-DIREITA */

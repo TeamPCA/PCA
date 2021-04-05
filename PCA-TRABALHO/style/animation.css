@@ -37,3 +37,9 @@
     opacity: 1;
   }
 }
+
+@keyframes button-cadastro {
+  to {
+    box-shadow: 0 3px 6px #7b7b7b;
+  }
+}
