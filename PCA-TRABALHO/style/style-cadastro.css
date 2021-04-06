@@ -34,6 +34,7 @@ img {
   background-color: #edece4;
   align-items: center;
   justify-content: center;
+  animation: show2 1s forwards;
 }
 
 .div-esquerda-container {
@@ -53,6 +54,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: show2 2s forwards;
 }
 
 .container-div-direita h2 {
