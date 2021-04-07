@@ -23,7 +23,7 @@ eventosTrabalho();
 
 function animacaoScroll(){
 const sections = document.querySelectorAll(".js-scroll");
-const metadeTela = window.innerHeight * 0.6;
+const metadeTela = window.innerHeight * 0.7;
 function scroll() {
     sections.forEach((section) => {
         const sectionTop = section.getBoundingClientRect().top
