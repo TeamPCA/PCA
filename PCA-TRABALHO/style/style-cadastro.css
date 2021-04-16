@@ -119,19 +119,28 @@ img {
   text-align: center;
   color: #7b7b7b;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.1em;
+  margin: 27px 0;
+  text-transform: uppercase;
 }
 
-.separador p {
-  margin: 27px 8px;
+.separador span {
+  margin: 0 auto;
+  position: relative;
 }
 
-.separador hr {
-  background: #f2f2f2;
-  width: 100%;
-  height: 2px;
+.separador span:before,
+.separador span:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 120px;
+  bottom: 50%;
+  right: 50px;
+  background: #7b7b7b;
+}
+.separador span::after {
+  left: 50px;
 }
 
 .form-cadastro input {
