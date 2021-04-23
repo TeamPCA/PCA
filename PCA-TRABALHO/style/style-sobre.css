@@ -19,3 +19,13 @@ body {
 .bg-chefs {
   background: #edece4;
 }
+
+.no-focus button:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.bg-footer {
+  background: #f7d683;
+}
