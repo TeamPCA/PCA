@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/bibliotecas/bootstrap.min.css">
+  <link rel="stylesheet" href="/style/style-sobre.css">
+  <link rel="stylesheet" href="/style/animation.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <title>Sobre</title>
+</head>
+
+<body>
+  <!--  MODL-LOGIN  -->
+
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-chefs">
+        <div class="modal-header">
+          <img src="/icones/Logo_Preto.png" class="" alt="logo-preto" style="max-width: 300px; margin: 0 0 0 auto;">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Lembrar-me a senha</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na conta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  MODL-LOGIN  -->
+
+  <!--  NAV MENU  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark p-0 boxshadow fixed-top">
+    <div class="container py-4">
+      <a class="navbar-brand p-0" href="/index.html"><img style="max-width: 300px;" src="/icones/Logo_Branco.png" alt="logo-branco"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-uppercase text-white" style="font-family: Dancing Script, cursive;" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white hover-link active" aria-current="page" href="#">Sobre</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white hover-link" href="#">Chefs</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white hover-link" href="#">Eventos</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white hover-link" href="#">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex align-items-center">
+          <a href="#" class="me-4 nav-link hover-link px-0" style="color: #fff;" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
+          <button class="btn text-uppercase rounded-pill btn-lg hover-cadastro type=" submit">Cadastro</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--  FECHA NAV MENU  -->
+
+  <section class="container">
+    <div class="row justify-content-center pt-5">
+      <div class="col-lg-6 text-center">
+        <h1 class="display-1 mt-3 mb-5" style="font-family: Nunito, sans-serif">Chef's IN Home</h1>
+        <div class="row justify-content-center">
+          <p class="h5 lead col-lg-6 text-black-50" style="font-family: Nunito, sans-serif"><em>"Nós da equipe Chef's IN Home <br> desejamos proporcionar acessibilidade para profissionais <br> de todas as áreas da culinária"</em></p>
+          <cite class="mb-5">-Equipe Chef's IN Home</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row justify-content-center text-center">
+      <h2 class="display-4 mt-5 text-uppercase">Sobre a Empresa</h2>
+      <div class="accordion col-lg-6" id="accordionExample">
+        <div class="accordion-item border-0 border-bottom border-dark bg-transparent">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Quais os planos da empresa para o futuro?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show border border-top-0 border-dark" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum perspiciatis consequuntur soluta consectetur atque, doloremque placeat, ipsa facilis iste modi non inventore tempore neque eligendi omnis quam. Officiis, neque.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!--ITEM DA LISTA 2-->
+        <div class="accordion-item border-0 border-bottom border-dark bg-transparent">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Quais os planos da empresa para o futuro?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse border border-top-0 border-dark" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum perspiciatis consequuntur soluta consectetur atque, doloremque placeat, ipsa facilis iste modi non inventore tempore neque eligendi omnis quam. Officiis, neque.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!--ITEM DA LISTA 3-->
+
+        <div class="accordion-item border-0 border-bottom border-dark bg-transparent">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Quais os planos da empresa para o futuro?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse border border-top-0 border-dark" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum perspiciatis consequuntur soluta consectetur atque, doloremque placeat, ipsa facilis iste modi non inventore tempore neque eligendi omnis quam. Officiis, neque.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!--ITEM DA LISTA 4-->
+        <div class="accordion-item border-0 border-bottom border-dark bg-transparent">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Quais os planos da empresa para o futuro?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse border border-top-0 border-dark" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum perspiciatis consequuntur soluta consectetur atque, doloremque placeat, ipsa facilis iste modi non inventore tempore neque eligendi omnis quam. Officiis, neque.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="/bibliotecas/popper.min.js"></script>
+  <script src="/bibliotecas/bootstrap.min.js"></script>
+</body>
+
+</html>

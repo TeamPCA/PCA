@@ -1,0 +1,21 @@
+body {
+  padding-top: 150px;
+  background-image: linear-gradient(to right, #778899, #d3d3d3);
+}
+.hover-link:hover {
+  border-bottom: solid 1.5px #fff;
+  padding-bottom: 2px;
+}
+.boxshadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.hover-cadastro {
+  background: #f7d683;
+}
+.hover-cadastro:hover {
+  animation: button-login2 0.5s forwards;
+}
+.bg-chefs {
+  background: #edece4;
+}

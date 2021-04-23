@@ -41,6 +41,13 @@
   }
 }
 
+@keyframes button-login2 {
+  to {
+    background: #fff;
+    color: #000;
+  }
+}
+
 @keyframes showLogin {
   from {
     opacity: 0;

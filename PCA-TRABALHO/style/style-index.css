@@ -64,8 +64,7 @@ img {
   animation: show 1s forwards;
 }
 .container-menu img {
-  width: 300px;
-  height: 150px;
+  max-width: 300px;
 }
 .container-menu nav ul {
   display: flex;
