@@ -1,6 +1,6 @@
 body {
   padding-top: 150px;
-  background-image: linear-gradient(to right, #778899, #d3d3d3);
+  background-image: linear-gradient(to right, #BEBEBE, #d3d3d3);
 }
 .hover-link:hover {
   border-bottom: solid 1.5px #fff;
