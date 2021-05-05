@@ -51,7 +51,7 @@
 }
 
 
-/* Portfólio */
+/* Filtro */
 
 
 
@@ -75,4 +75,9 @@
   color: #FFF;
   border: 1px solid #65DAF9;
   background-color: #65DAF9;
+}
+
+#botao-filtro{
+ display: flex;
+ justify-content: center;
 }
