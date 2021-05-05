@@ -50,7 +50,7 @@
   <!--  NAV MENU  -->
   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-0 boxshadow fixed-top">
     <div class="container py-4">
-      <a class="navbar-brand p-0" href="../PCA-TRABALHO/index.html"><img style="max-width: 300px;" src="icones/Logo_Branco.png" alt="logo-branco"></a>
+      <a class="navbar-brand p-0" href="/index.html"><img style="max-width: 300px;" src="icones/Logo_Branco.png" alt="logo-branco"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -79,9 +79,47 @@
   <!--  FECHA NAV MENU  -->
 
 
+
+
+
+  <!--Filtro-->
+  <div id="chef">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-6 cartao flip-card">
+
+      <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-filtro">Filtro</button>
+
+          <div class="modal fade" id="modal-filtro" tabindex="-1" aria-labelledby="modaL" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="modaL">Selecione o filtro:</h5>
+                         
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                        <div class="col-md-12" id="filter-btn-box">
+                          <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                          <button class="main-btn filter-btn" id="rj-btn">Rio de Janeiro</button>
+                          <button class="main-btn filter-btn" id="mg-btn">Minas Gerais</button>
+                          <button class="main-btn filter-btn" id="sp-btn">São Paulo</button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+      <!--Chef 1-->
+      <div class="col-lg-6 cartao flip-card project-box mg">
         <div class="card p-0 border-0 flip-card-inner">
           <div class="row g-0 flip-card-front">
             <div class="col-md-5">
@@ -106,7 +144,7 @@
       </div>
 
       <!--  CHEF 2  -->
-      <div class="col-lg-6 cartao flip-card">
+      <div class="col-lg-6 cartao flip-card project-box rj">
         <div class="card p-0 border-0 flip-card-inner">
           <div class=" row g-0 flip-card-front">
             <div class="col-md-5">
@@ -131,7 +169,7 @@
       </div>
 
       <!--  CHEF 3  -->
-      <div class="col-lg-6 cartao flip-card">
+      <div class="col-lg-6 cartao flip-card project-box sp">
         <div class="card p-0 border-0 flip-card-inner">
           <div class=" row g-0 flip-card-front">
             <div class="col-md-5">
@@ -156,7 +194,7 @@
       </div>
 
       <!--  CHEF 4  -->
-      <div class="col-lg-6 cartao flip-card">
+      <div class="col-lg-6 cartao flip-card project-box rj">
         <div class="card p-0 border-0 flip-card-inner">
           <div class=" row g-0 flip-card-front">
             <div class="col-md-5">
@@ -181,7 +219,7 @@
       </div>
 
       <!--  CHEF 5  -->
-      <div class="col-lg-6 cartao flip-card">
+      <div class="col-lg-6 cartao flip-card project-box sp">
         <div class="card p-0 border-0 flip-card-inner">
           <div class=" row g-0 flip-card-front">
             <div class="col-md-5">
@@ -207,7 +245,7 @@
 
 
       <!--  CHEF 6  -->
-      <div class="col-lg-6 cartao flip-card">
+      <div class="col-lg-6 cartao flip-card project-box mg">
         <div class="card p-0 border-0 flip-card-inner">
           <div class=" row g-0 flip-card-front">
             <div class="col-md-5">
@@ -232,7 +270,7 @@
       </div>
     </div>
   </div>
-
+</div>
 
 
   <!--  FOOTER  -->
@@ -303,9 +341,10 @@
 
 
 
-
+  
   <script src="/bibliotecas/popper.min.js"></script>
   <script src="/bibliotecas/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/js/script-chef-teste.js"></script>
 </body>
 

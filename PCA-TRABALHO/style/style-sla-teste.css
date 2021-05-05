@@ -49,3 +49,30 @@
   color: #fff;
   transform: rotateY(180deg);
 }
+
+
+/* Portfólio */
+
+
+
+#filter-btn-box {
+  text-align: center;
+}
+
+#chef .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+ 
+}
+
+#chef .filter-btn.active, #chef .filter-btn:hover {
+  color: #FFF;
+  border: 1px solid #65DAF9;
+  background-color: #65DAF9;
+}
