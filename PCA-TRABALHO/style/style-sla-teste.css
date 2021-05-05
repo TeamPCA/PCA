@@ -66,8 +66,8 @@
   text-transform: none;
   min-width: 100px;
   width: auto;
-  height: 40px;
-  line-height: 40px;
+  padding: 5px;
+  border-radius: 20px;
  
 }
 
