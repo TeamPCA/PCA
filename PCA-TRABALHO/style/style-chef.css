@@ -50,10 +50,7 @@
   transform: rotateY(180deg);
 }
 
-
 /* Filtro */
-
-
 
 #filter-btn-box {
   text-align: center;
@@ -68,16 +65,16 @@
   width: auto;
   padding: 5px;
   border-radius: 20px;
- 
 }
 
-#chef .filter-btn.active, #chef .filter-btn:hover {
-  color: #FFF;
-  border: 1px solid #65DAF9;
-  background-color: #65DAF9;
+#chef .filter-btn.active,
+#chef .filter-btn:hover {
+  color: #fff;
+  border: 1px solid #65daf9;
+  background-color: #65daf9;
 }
 
-#botao-filtro{
- display: flex;
- justify-content: center;
+#botao-filtro {
+  display: flex;
+  justify-content: center;
 }
