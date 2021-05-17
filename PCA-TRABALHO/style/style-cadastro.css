@@ -200,14 +200,14 @@ img {
   color: #18a0fb;
 }
 
-button {
+.button-finalizar {
   color: #fff;
   background: #cb2027;
   padding: 10px 30px;
   border-radius: 5px;
 }
 
-button:hover {
+.button-finalizar:hover {
   animation: button-cadastro 0.2s forwards;
 }
 
