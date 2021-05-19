@@ -1,5 +1,6 @@
 body {
   font-family: Nunito, sans-serif;
+  background: #f4f5fc;
 }
 
 .hover-link:hover {
@@ -28,4 +29,33 @@ body {
 
 .bg-footer {
   background: #f7d683;
+}
+
+.lista-perfil li {
+  color: #bbbbbb;
+  border: none;
+}
+
+.dados {
+  border-bottom: solid 1px #bbbbbb;
+}
+
+.dados span {
+  color: #bbbbbb;
+}
+
+.dados h3 {
+  color: #605c5d;
+}
+
+.dados div {
+  margin-right: 50px;
+}
+
+#dados-adicionais span {
+  color: #bbbbbb;
+}
+
+#dados-adicionais h3 {
+  color: #605c5d;
 }

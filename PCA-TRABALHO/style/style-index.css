@@ -297,7 +297,8 @@ img {
   display: block;
   margin: 10px auto;
 }
-.login button {
+.link-modificado {
+  width: 20%;
   margin-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -309,7 +310,7 @@ img {
   display: block;
   margin: 10px auto;
 }
-.login button:hover {
+.link-modificado {
   animation: button-login 0.5s forwards;
 }
 .login input:focus,
