@@ -7,13 +7,16 @@ $('.filter-btn').on('click', function(){
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
 
-    if(type == 'mg-btn') {
-        eachBoxes('mg', boxes);
-      } else if(type == 'sp-btn') {
-        eachBoxes('sp', boxes);
-      } else if(type == 'rj-btn') {
-        eachBoxes('rj', boxes);
-      } else {
+    if(type == 'jp-btn') {
+        eachBoxes('jp', boxes);
+      } else if(type == 'it-btn') {
+        eachBoxes('it', boxes);
+      } else if(type == 'br-btn') {
+        eachBoxes('br', boxes);
+      } else if(type == 'ar-btn') {
+        eachBoxes('ar', boxes);
+      }
+      else {
         eachBoxes('all', boxes);
       }
 });

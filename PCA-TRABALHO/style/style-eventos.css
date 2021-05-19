@@ -1,0 +1,9 @@
+.perfil-01 {
+    display: flex;
+}
+
+.perfil-01 img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
