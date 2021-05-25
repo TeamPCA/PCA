@@ -15,6 +15,10 @@ $('.filter-btn').on('click', function(){
         eachBoxes('br', boxes);
       } else if(type == 'ar-btn') {
         eachBoxes('ar', boxes);
+      } else if(type == 'yt-btn') {
+        eachBoxes('yt', boxes);
+      } else if(type == 'ch-btn') {
+        eachBoxes('ch', boxes);
       }
       else {
         eachBoxes('all', boxes);
