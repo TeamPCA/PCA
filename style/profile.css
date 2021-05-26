@@ -3,6 +3,15 @@ body {
   background: #f4f5fc;
 }
 
+#pincel-editor {
+  border-radius: 50%;
+  border: solid 1px #bbbbbb;
+  box-shadow: 0 3px 3px;
+  padding: 10px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
 .hover-link:hover {
   border-bottom: solid 1.5px #fff;
   padding-bottom: 2px;
@@ -61,5 +70,5 @@ body {
 }
 
 a {
-  color: black
+  color: black;
 }
