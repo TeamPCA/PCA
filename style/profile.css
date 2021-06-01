@@ -3,6 +3,12 @@ body {
   background: #f4f5fc;
 }
 
+#link-login:hover {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0 10px;
+}
+
 #pincel-editor {
   border-radius: 50%;
   border: solid 1px #bbbbbb;
