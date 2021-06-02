@@ -80,6 +80,11 @@ img {
   font-family: "Dancing Script", cursive;
 }
 
+#login-profile:hover {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
 .btn-nav:hover {
   border-bottom: solid 1.5px #fff;
   padding-bottom: 2px;
